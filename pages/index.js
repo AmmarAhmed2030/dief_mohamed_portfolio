@@ -8,9 +8,9 @@ import {
 import { SiUpwork } from "react-icons/si";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import dief from "../public/صورة واتساب بتاريخ 2024-03-26 في 22.10.41_06982e65.jpg";
+import dief from "../public/dief.jpg";
 import code from "../public/code.png";
-import design from "../public/design.png";
+
 import consulting from "../public/consulting.png";
 import Image from "next/image";
 import proj1 from "../public/PowerBI projects/1.jpg";
@@ -28,7 +28,7 @@ import dashboard from "../public/dashboard.png";
 import database1 from "../public/DatabaseProjects/1.jpg";
 import database2 from "../public/DatabaseProjects/2.jpg";
 import database3 from "../public/DatabaseProjects/3.jpg";
-import novypro from "../public/novyPro Logo a PowerBI portfolio builder-381556704.png";
+import novypro from "../public/novyPro.png";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
 
@@ -162,7 +162,7 @@ export default function Home() {
               </p>
               <a
                 href="https://www.linkedin.com/in/dief-mohamed2020/"
-                className="text-gray-800 py-1 block text-teal-700 hover:text-blue-500"
+                className="py-1 block text-teal-700 hover:text-blue-500"
               >
                 Linkedin
               </a>
